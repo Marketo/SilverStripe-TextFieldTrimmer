@@ -1,7 +1,7 @@
 TextFieldTrimmer-for-SilverStripe
 =================================
 # Description
-Add this SilverStripe extension to any DataObject to automatically `trim()` every field before data is saved to the database.
+Add this SilverStripe extension to any DataObject to automatically `trim()` every text (ie, HTMLText, Text, VarChar) field before data is saved to the database.
 
 #Installation
 
@@ -15,4 +15,6 @@ class Category extends DataObject {
 	static $extensions = array(
 		'TextFieldTrimmer',
 	);
+    ...
+}
 ```

@@ -1,0 +1,24 @@
+{
+	"name": "marketo/silverstripe-textfieldtrimmer",
+	"description": "Add this SilverStripe extension to any DataObject to automatically trim() every text (ie, HTMLText, Text, VarChar) field before data is saved to the database.",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "textfield", "trimmer"],
+	"authors": [
+		{
+			"name": "Nathan J. Brauer",
+			"email": "nathan@marketera.com"
+		},
+		{
+			"name": "Steve Vu",
+			"email": "svu@quinn.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/Marketo/SilverStripe-TextFieldTrimmer/issues"
+	},
+	"require":
+	{
+		"silverstripe/cms": "3.*",
+		"composer/installers": "*"
+	}
+}

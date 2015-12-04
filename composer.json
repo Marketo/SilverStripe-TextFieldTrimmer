@@ -16,6 +16,7 @@
 	"support": {
 		"issues": "https://github.com/Marketo/SilverStripe-TextFieldTrimmer/issues"
 	},
+	"license" : "BSD-3-Clause",
 	"require":
 	{
 		"silverstripe/cms": "3.*",
